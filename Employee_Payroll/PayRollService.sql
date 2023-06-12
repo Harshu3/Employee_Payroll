@@ -19,3 +19,6 @@ select * from EmployeePayRoll;
 select Salary from EmployeePayRoll where Name = 'UV';
 select * from EmployeePayRoll where StartDate = '2019-02-04';
 select * from EmployeePayRoll where StartDate between '2000-01-01' And getDate();
+----------------UC6---------------
+alter table EmployeePayRoll add Gender char(1);
+update EmployeePayRoll set Gender = 'M';
